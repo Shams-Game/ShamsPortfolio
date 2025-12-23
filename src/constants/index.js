@@ -8,13 +8,13 @@ const navLinks = [
     link: "#experience",
   },
   {
-    name: "Skills",
-    link: "#skills",
+    name: "About",
+    link: "#about",
   },
-  {
+  /*{
     name: "Testimonials",
     link: "#testimonials",
-  },
+  },*/
 ];
 
 const words = [
@@ -29,32 +29,32 @@ const words = [
 ];
 
 const counterItems = [
-  { value: 15, suffix: "+", label: "Years of Experience" },
-  { value: 200, suffix: "+", label: "Satisfied Clients" },
-  { value: 108, suffix: "+", label: "Completed Projects" },
-  { value: 90, suffix: "%", label: "Client Retention Rate" },
+  { value: 13, suffix: "+", label: "Years of Experience" },
+  { value: 3000, suffix: "+", label: "Operational Issues Managed Successfully" },
+  { value: 20, suffix: "+", label: "Product & Process Improvements Delivered" },
+  { value: 95, suffix: "%+", label: "SLA Consistency Maintained Across Core Applications" },
 ];
 
 const logoIconsList = [
   {
-    imgPath: "/images/logos/company-logo-1.png",
+    imgPath: "/images/logos/xerox.png",
   },
   {
-    imgPath: "/images/logos/company-logo-2.png",
+    imgPath: "/images/logos/atos.svg",
   },
   {
-    imgPath: "/images/logos/company-logo-3.png",
+    imgPath: "/images/logos/hpe.svg",
   },
   {
-    imgPath: "/images/logos/company-logo-4.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-5.png",
+    imgPath: "/images/logos/volvo.svg",
   },
   {
     imgPath: "/images/logos/company-logo-6.png",
   },
   {
+    imgPath: "/images/logos/hcl.svg",
+  },
+ /* {
     imgPath: "/images/logos/company-logo-7.png",
   },
   {
@@ -68,7 +68,7 @@ const logoIconsList = [
   },
   {
     imgPath: "/images/logos/company-logo-11.png",
-  },
+  },*/
 ];
 
 const abilities = [
@@ -145,9 +145,63 @@ const techStackIcons = [
   },
 ];
 
+export const experiences = [
+  {
+    company: "HCLTech (Client | Volvo Group)",
+    role: "Application Support Lead / Product Operations",
+    date: "Feb 2021 – Present",
+    responsibilities: [
+      "Owned and supported business-critical enterprise applications for global users.",
+      "Acted as the primary bridge between business stakeholders, product owners, and engineering teams.",
+      "Converted recurring incidents into permanent fixes through root cause analysis and process improvements.",
+    ],
+  },
+  {
+    company: "Varite India Pvt Ltd (Client | Adobe)",
+    role: "Senior Application Support Engineer",
+    date: "Sep 2020 – Feb 2021",
+    responsibilities: [
+      "Supported global Adobe Campaign workflows during peak load.",
+      "Identified workflow sequencing issues and proposed improvements.",
+      "Improved operational stability by documenting known issues and workarounds.",
+    ],
+  },
+  {
+    company: "Tarang Software (Client | Volvo Group)",
+    role: "Application Support Engineer",
+    date: "Aug 2018 – July 2020",
+    responsibilities: [
+      "Handled L2/L3 incidents for enterprise platforms with strict SLA commitments.",
+      "Performed deep log analysis and SQL-based data validation.",
+      "Collaborated with cross-functional teams across regions for issue resolution.",
+    ],
+  },
+  {
+    company: "DXC Technology (HPE) ",
+    role: "Application Operational Analyst",
+    date: "July 2016 – Aug 2018",
+    responsibilities: [
+      "Supported sales & ordering systems (Siebel, Eclipse, EClaims, HPP).",
+      "Executed Linux scripts & Tidal job reruns to fix upstream/downstream sync failures.",
+      "Provided L2 global support in a Follow-the-Sun model (APJ + EMEA handovers).",
+    ],
+  },
+  {
+    company: " Atos IT Pvt Ltd (Xerox Business Services)",
+    role: "Technical Analyst",
+    date: "Oct 2011 – June 2016",
+    responsibilities: [
+      "Delivered application & database support for critical enterprise systems.",
+      "Worked with DB teams and engineering to resolve escalated defects..",
+  
+    ],
+  },
+];
+
+
 const expCards = [
   {
-    review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+    /*review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",*/
     imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.png",
     title: "Frontend Developer",
@@ -181,6 +235,25 @@ const expCards = [
       "Improved app performance and user experience through code optimization and testing.",
       "Coordinated with the product team to implement features based on feedback.",
     ],
+  },
+];
+
+export const skillCards = [
+  {
+    title: "Frontend & UI",
+    icon: "/icons/react.svg",
+  },
+  {
+    title: "Backend & Data",
+    icon: "/icons/database.svg",
+  },
+  {
+    title: "Systems & Operations",
+    icon: "/icons/monitoring.svg",
+  },
+  {
+    title: "Delivery & Collaboration",
+    icon: "/icons/workflow.svg",
   },
 ];
 

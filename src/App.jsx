@@ -1,7 +1,7 @@
-import Testimonials from "./sections/Testimonials";
+//import Testimonials from "./sections/Testimonials";
 import Footer from "./sections/Footer";
 import Contact from "./sections/Contact";
-import TechStack from "./sections/TechStack";
+import About from "./sections/About";
 import Experience from "./sections/Experience";
 import Hero from "./sections/Hero";
 import ShowcaseSection from "./sections/ShowcaseSection";
@@ -17,8 +17,7 @@ const App = () => (
     <LogoShowcase />
     <FeatureCards />
     <Experience />
-    <TechStack />
-    <Testimonials />
+    <About/>
     <Contact />
     <Footer />
   </>

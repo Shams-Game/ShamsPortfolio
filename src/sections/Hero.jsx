@@ -51,8 +51,18 @@ const Hero = () => {
             </div>
 
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              Hi, I’m Adrian, a developer based in Croatia with a passion for
-              code.
+              <h1 className="text-4xl md:text-5xl font-extrabold leading-tight">
+      Hi, I'm Shams
+    </h1>
+
+    <h2 className="text-xl md:text-2xl font-semibold">
+      Digital Product Owner & Enterprise Application Specialist
+    </h2>
+
+    <p className="text-gray-300 md:text-lg max-w-md">
+      I transform business needs into scalable digital products — blending user 
+      empathy, data-driven insights, and enterprise technology.
+    </p>
             </p>
 
             <Button
@@ -66,6 +76,7 @@ const Hero = () => {
         {/* RIGHT: 3D Model or Visual */}
         <figure>
           <div className="hero-3d-layout">
+            
             <HeroExperience />
           </div>
         </figure>

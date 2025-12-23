@@ -394,6 +394,30 @@ section {
   );
 }
 
+/* Controls the visible size of every logo */
+.logo-wrapper {
+  height: 40px;              /* single source of truth */
+  width: 120px;              /* prevents oversized Adobe/Xerox */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Controls how the logo fits inside */
+.logo-img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+
+  /* visual normalization */
+  filter: grayscale(100%);
+  opacity: 0.7;
+
+  /* safety */
+  background: transparent;
+}
+
+
 /* marquee */
 .marquee {
   width: 100dvw;
