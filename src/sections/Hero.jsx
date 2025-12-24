@@ -59,7 +59,7 @@ const Hero = () => {
       Digital Product Owner & Enterprise Application Specialist
     </h2>
 
-    
+
             </p>
 
             <Button
