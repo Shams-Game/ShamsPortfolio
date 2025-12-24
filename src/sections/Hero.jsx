@@ -59,10 +59,7 @@ const Hero = () => {
       Digital Product Owner & Enterprise Application Specialist
     </h2>
 
-    <p className="text-gray-300 md:text-lg max-w-md">
-      I transform business needs into scalable digital products — blending user 
-      empathy, data-driven insights, and enterprise technology.
-    </p>
+    
             </p>
 
             <Button
