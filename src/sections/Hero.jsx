@@ -24,7 +24,7 @@ const Hero = () => {
       <div className="hero-layout">
         {/* LEFT: Hero Content */}
         <header className="flex flex-col justify-center md:w-full w-screen md:px-20 px-5">
-          <div className="flex flex-col gap-7">
+          <div div className="flex flex-col gap-7">
             <div className="hero-text">
               <h1>
                 Shaping
@@ -60,14 +60,14 @@ const Hero = () => {
     </h2>
 
 
-            </p>
-
-            <Button
+            </p><Button
               text="See My Work"
               className="md:w-80 md:h-16 w-60 h-12"
               id="counter"
             />
-          </div>
+    </div>
+
+          
         </header>
 
         {/* RIGHT: 3D Model or Visual */}
@@ -78,6 +78,7 @@ const Hero = () => {
           </div>
         </figure>
       </div>
+      
 
       <AnimatedCounter />
     </section>
