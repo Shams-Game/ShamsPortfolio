@@ -21,7 +21,7 @@ const Hero = () => {
         <img src="/images/bg.png" alt="" />
       </div>
 
-      <div className="hero-layout">
+      <div className="hero-layout touch-pan-y">
         {/* LEFT: Hero Content */}
         <header className="flex flex-col justify-center md:w-full w-screen md:px-20 px-5">
           <div div className="flex flex-col gap-7">
