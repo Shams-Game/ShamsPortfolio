@@ -12,7 +12,7 @@ import { Suspense } from "react";
   const isTablet = useMediaQuery({ query: "(max-width: 1024px)" });
 
   return (
-      
+      <div className="md:pointer-events-auto pointer-events-none">
       <Canvas camera={{ position: [0, 0, 15], fov: 45 }}>
     
       {/* deep blue ambient */}
@@ -41,7 +41,7 @@ import { Suspense } from "react";
         </group>
       </Suspense>
     </Canvas>
-    
+    </div>
   );
 };
 
