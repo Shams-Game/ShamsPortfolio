@@ -104,7 +104,9 @@ section {
            absolute xl:-top-20 top-24 xl:-right-20 right-0;
   }
 
-  @media (max-width: 768px) {
+ 
+  /* MOBILE SCROLL FIX — DO NOT MOVE */
+  @media (hover: none) and (pointer: coarse) {
     .hero-3d-layout {
       pointer-events: none;
     }
